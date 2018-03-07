@@ -1,0 +1,22 @@
+<div class="gameBoard">
+    <h3>{{bigTick}}</h3>
+    <p>MISSES</p>
+  <div class="boxes">
+
+    <div [style.background]="miss >= 1 ?'red' : '#ccc'" class="box"></div>
+    <div class="box" [style.background]="miss >= 2 ?'red' : '#ccc'"></div>
+    <div class="box" [style.background]="miss >= 3 ?'red' : '#ccc'"></div>
+  </div>
+
+
+<div class="question" [innerHTML]="question"></div>
+
+
+
+<input #answerField type="text" (input)="setAnswer(answerField)">
+
+
+<h2 >Score: <span *ngIf="answer">{{score}}</span> </h2>
+
+</div>
+

@@ -1,1 +1,117 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+body {
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  background: #000;
+  font-size: 2em;
+
+  margin: 0;
+  padding: 0
+}
+
+
+
+
+.boxes {
+  margin-top: 20px;
+  height: 5px;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.box {
+  height: 100%;
+  width: 20%;
+  margin: 5px;
+  background: rgb(128, 128, 128);
+}
+
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+
+  background: #000;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+}
+
+input {
+  height: 60px;
+  width: 100%;
+}
+
+
+.gameBoard {
+  margin: 0 auto;
+  width: 500px;
+  height: 100vh;
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.gameBoard p {
+  width: 100%;
+  line-height: .1em;
+}
+
+.question {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  font-size: 2.5em;
+  line-height: 1em;
+}
+.question div {
+  width: 100%;
+  text-align: right;
+}
+
+.score {
+  width: 100%;
+
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 2em;
+  color :#fff;
+}
+
+button:hover {
+  color: #ccc;
+  cursor: pointer;
+}
+
+.btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-wrapper * {
+  margin: .5em;
+}
+
+
